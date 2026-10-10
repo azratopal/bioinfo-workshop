@@ -130,4 +130,8 @@ ggplot(volcano, aes(x = log2FoldChange, y = -log10(padj_plot), colour = signific
   labs(x = "log2 fold change (treated / untreated)", y = "-log10 adjusted p-value",
        title = "Dexamethasone versus untreated") +
   theme_bw()
+graphics.off()
+
+
+
 

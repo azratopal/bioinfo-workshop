@@ -66,3 +66,9 @@ git add scripts/
 git commit -m "Day 1: reads to counts"
 git push
 
+
+git add scripts/
+git commit -m "Day1: differential expression"
+git push
+git log --oneline
+git status
