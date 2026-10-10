@@ -18,3 +18,7 @@ conda env remove -y -n deneme
 conda env list
 cat envs/rnaseq.yml
 conda env create -f envs/rnaseq.yml
+#Committing the first day, morning
+git add envs/ scripts/
+git commit -m "Day 1: environment files"
+git push
