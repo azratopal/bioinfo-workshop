@@ -72,3 +72,11 @@ git commit -m "Day1: differential expression"
 git push
 git log --oneline
 git status
+
+
+git add fastp.html fastp.json
+
+git commit -m "Add fastp QC reports"
+
+git push
+git status
